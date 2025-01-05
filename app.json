@@ -15,7 +15,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/simpleMeditationLogo.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.ujjvaljoshi45.simplemeditation"
     },
     "web": {
       "bundler": "metro",
@@ -28,7 +29,6 @@
         "expo-splash-screen",
         {
           "image": "./assets/simpleMeditationLogo.png",
-          // "imageWidth": 200,
           "resizeMode": "cover",
           "backgroundColor": "#ffffff"
         }
@@ -36,6 +36,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "0cbd8c2d-ed83-4d3b-9ecf-888b24d44aef"
+      }
     }
   }
 }
